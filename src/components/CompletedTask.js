@@ -1,6 +1,6 @@
 import React from 'react';
 
-const CompletedTask = ({ task, handleDelete, toTasks}) => {
+const CompletedTask = ({ task, handleDelete, toTasks }) => {
     return <form key={task.key}>
               <input value={task.text} readOnly />
               <button type="submit" onClick={e => {
